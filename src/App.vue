@@ -73,9 +73,6 @@ function getStatClass(statName) {
 </script>
 
 <style scoped>
-main {
-    height: 100vh;
-}
 /* Estilos para el header */
 header {
     background-color: #343a40;
@@ -94,15 +91,14 @@ header {
     /* Distancia desde la izquierda */
     z-index: 1000;
     /* Asegurar que el header esté encima de otros elementos */
+    
 }
 
 header img {
-    max-height: 70px;
+    /* max-height: 70px; */
     /* Altura máxima de la imagen del logo */
-    width: 200px;
-    display: inline-block;
-    margin-bottom: 10px;
-    justify-content: center;
+    /* width: 200px; */
+    height: 70px;
 }
 
 /* Estilos para el footer */
@@ -111,6 +107,7 @@ footer {
     color: #fff;
     padding: 15px 0;
     width: 100%;
+    height: 50px;
     position: fixed;
     bottom: 0;
     left: 0;
